@@ -1,0 +1,93 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Music Player Widget Flat Responsive Widget Template :: w3layouts</title>
+<!--Custom Theme files-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Music Player Widget template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<!-- js,css files-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--//js,css files-->
+<!--audio-->
+<link rel="stylesheet" type="text/css" media="all" href="css/audio.css">
+<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+<!--//audio-->
+<!-- web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Caveat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<!-- //web-fonts-->
+</head>
+<body>
+	<!-- main -->
+	<div class="main">
+		<h1>My Music</h1>
+		<div class="music-player">
+			<div class="player-top">
+				<div class="rating">
+					<span class="starRating">
+						<input id="rating5" type="radio" name="rating" value="5">
+						<label for="rating5">5</label>
+						<input id="rating4" type="radio" name="rating" value="4">
+						<label for="rating4">4</label>
+						<input id="rating3" type="radio" name="rating" value="3" checked>
+						<label for="rating3">3</label>
+						<input id="rating2" type="radio" name="rating" value="2">
+						<label for="rating2">2</label>
+						<input id="rating1" type="radio" name="rating" value="1">
+						<label for="rating1">1</label>
+					  </span>
+				</div>
+			</div>
+			<div class="player-bottom">
+				<div class="music-left">
+					<img src="images/img1.jpg" alt=""/>
+				</div>
+				<div class="music-right">
+					<h2>Trap Queen </h2>
+					<p> Where Are U now With Diplo</p>
+					<h5>1:31</h5>
+					<!---->
+					<div class="audio-player">
+						<audio id="audio-player"  controls="controls">
+						<source src="media/Blue Browne.ogg" type="audio/ogg"></source>
+						<source src="media/Blue Browne.mp3" type="audio/mpeg"></source>
+					</div>
+							<!---->
+							<script type="text/javascript">
+								$(function(){
+								  $('#audio-player').mediaelementplayer({
+									alwaysShowControls: true,
+									features: ['playpause','progress','volume'],
+									audioVolume: 'horizontal',
+									iPadUseNativeControls: true,
+									iPhoneUseNativeControls: true,
+									AndroidUseNativeControls: true
+								});
+							 });
+							</script>
+							<!--//-->
+						<ul class="next-top">
+							<li><a href="#"><i> </i></a></li>
+							<li><a href="#"><i class="next"> </i></a></li>
+						</ul>
+					<!-------->		
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+	</div>	
+	<div class="copyright">
+		<p> &copy; 2015 My Music Player . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank" >W3layouts</a></p>
+	</div>	
+</body>
+</html>
